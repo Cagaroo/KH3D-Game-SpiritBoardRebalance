@@ -1,0 +1,11 @@
+---
+title: SpiritBoardRebalance (SBR)
+originalAuthor: Cagaroo
+description: >-
+    Reduces node costs by 80%; reduces link nodes to 1 link. 
+assets:
+## Player Techniques
+  - name: game\de\bin\lboard.bin
+    method: copy
+    source:
+      - name: remastered\game\lboard.bin
