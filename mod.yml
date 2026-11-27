@@ -2,10 +2,26 @@
 title: SpiritBoardRebalance (SBR)
 originalAuthor: Cagaroo
 description: >-
-    Reduces node costs by 80%; reduces link nodes to 1 link. 
+    Reduces Spirit Board costs by 80%; All recipes are S-Rank and are purchasable for 100 munny; Dream Eaters drop their own synth material.
 assets:
-## Player Techniques
+## Game/DE
   - name: game\de\bin\lboard.bin
     method: copy
     source:
       - name: remastered\game\lboard.bin
+  - name: game\de\bin\spcom.bin
+    method: copy
+    source:
+      - name: remastered\game\spcom.bin
+
+## Game/Bin
+  - name: game\bin\dropprm.bin
+    method: copy
+    source:
+      - name: remastered\game\dropprm.bin
+
+## Item
+  - name: item\jp\bin\shop.bin
+    method: copy
+    source:
+      - name: remastered\item\shop.bin
